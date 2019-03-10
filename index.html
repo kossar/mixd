@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mixd</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+        
+    </head>
+    <body class="green">
+        <header class="container shadow">
+            
+
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="header-logo green-logo" src="image/green_0040.png" alt="mixd logo" >
+                    <img class="header-logo pink-logo d-none" src="image/pink_0040.png" alt="mixd pink logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item nav-item-theme">
+                            <a class="nav-link theme" href="#">Pink</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav><!-- End of nav -->
+           
+
+            <div class="row area">
+                <div class="col">
+
+                    <div class="text-center justify-content-center">
+                        <img class="green-logo img-fluid" src="image/green_0040.png" alt="mixd logo">
+                        <img class="pink-logo img-fluid d-none" src="image/pink_0040.png" alt="mixd pink logo">
+                        <p class="pb-4 hero-text">Production and media services<br>
+                            for smart digital marketers</p>
+                    </div>
+
+                </div><!-- End of col div -->
+            </div><!-- End of row div -->
+
+        
+        </header>  <!-- End of header container -->
+        <div class="container shadow my-3 font-weight-light">
+            <div class="row">
+                <div class="col-md-6" id="aboutUs">
+
+                    <div class="content p-3">
+                        <h1 class="text-center">Lorem ipsum dolor</h1>
+                        <p>Donec id faucibus velit. Suspendisse a ornare arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec id rhoncus eros. Mauris gravida, orci in ultricies posuere, dui velit lobortis quam, a pulvinar lectus ipsum non ante. Fusce lectus elit, volutpat ut quam ac, lobortis dapibus neque. Curabitur finibus enim ac felis porta imperdiet.</p>
+                    </div>
+
+                </div><!-- End of col div -->
+                <div class="col-md-6">
+
+                        <div class="content p-3 mt-md-5">
+                            <h2 class="text-center">Nunc sed tellus</h2>
+                            <p>Duis pulvinar nisi velit, quis efficitur nisl porttitor vitae. Donec ac scelerisque tortor, ultricies facilisis leo. Donec turpis orci, fringilla quis sem id, interdum dictum eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc tristique justo et magna gravida, ac suscipit elit aliquam.</p>
+                        </div>
+    
+                    </div><!-- End of col div -->
+            </div>
+            
+
+            <div class="row area justify-content-center">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <h3 class="text-center m-4">Võta ühendust</h3>
+
+                    <form id="contact-form" method="post" action="contact.php" role="form" >
+
+                        <div class="messages col-md-12"></div>
+                        
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Eesnimi *" required="required" data-error="Eesnimi on nõutud.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Perekonnanimi *" required="required" data-error="Perekonnanimi on nõutud.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="E-mail *" required="required" data-error="Korrektne E-mail on nõutud.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefoni number">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Sõnum *" rows="4" required="required" data-error="Palun jäta mulle teade."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Saada">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted my-2 pb-3"><strong>*</strong> Tärniga tähistatud väljad on nõutud!</p>
+                                </div>
+                            </div>
+
+                        </div> <!-- End of controls div -->
+                    </form> <!--End of Contact-form-->
+                </div> <!-- End of col div -->
+            </div> <!-- End of row div -->
+        </div><!-- End of container div -->
+
+        
+        <footer class="container shadow">
+            <div class="row py-3 area"> 
+                <div class="col">
+
+                    <div class="text-center contact" id="contact">
+                        <a class="py-4" href="https://www.facebook.com/ONEMIXD/" >
+                            <img class="fb fb-green" src="image/facebook-green.svg" alt="Facebook">
+                            <img class="fb fb-pink d-none" src="image/facebook-pink.svg" alt="Facebook">
+                        </a>
+                        <a href="mailto:mixd@mixd.ee" class="email">mixd@mixd.ee</a>
+                        <span class="address" >Kultuurikatel, Tallinn</span>
+                    </div>
+                   
+                </div><!-- End of col div -->
+            </div> <!-- End of row div -->
+        </footer><!-- End of footer container -->
+           
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
